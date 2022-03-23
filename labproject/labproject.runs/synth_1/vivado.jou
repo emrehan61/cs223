@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Dec 28 13:34:33 2021
+# Process ID: 1596
+# Current directory: C:/Users/emrho/Desktop/CS223/labproject/labproject.runs/synth_1
+# Command line: vivado.exe -log projectmain.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source projectmain.tcl
+# Log file: C:/Users/emrho/Desktop/CS223/labproject/labproject.runs/synth_1/projectmain.vds
+# Journal file: C:/Users/emrho/Desktop/CS223/labproject/labproject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source projectmain.tcl -notrace

@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/emrho/Desktop/CS223/lab3/mux/mux.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab3/mux/mux.srcs/sim_1/new/tb1.sv,1635620626,systemVerilog,,,,tb1,,,,,,,,
+,,,,,,tb2,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab3/mux/mux.srcs/sources_1/new/fmux.sv,1636096692,systemVerilog,,C:/Users/emrho/Desktop/CS223/lab3/mux/mux.srcs/sources_1/new/tmux.sv,,fmux,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab3/mux/mux.srcs/sources_1/new/tmux.sv,1636095430,systemVerilog,,C:/Users/emrho/Desktop/CS223/lab3/mux/mux.srcs/sim_1/new/tb2.sv,,tmux,,,,,,,,

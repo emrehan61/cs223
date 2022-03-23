@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct 22 09:31:06 2021
+# Process ID: 1700
+# Current directory: C:/Users/emrho/Desktop/CS223/labc/project_4.runs/impl_1
+# Command line: vivado.exe -log labcalc.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source labcalc.tcl -notrace
+# Log file: C:/Users/emrho/Desktop/CS223/labc/project_4.runs/impl_1/labcalc.vdi
+# Journal file: C:/Users/emrho/Desktop/CS223/labc/project_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source labcalc.tcl -notrace

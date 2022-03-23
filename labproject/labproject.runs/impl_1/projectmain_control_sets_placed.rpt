@@ -1,0 +1,118 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Dec 28 13:35:39 2021
+| Host         : LAPTOP-C70S5EDD running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file projectmain_control_sets_placed.rpt
+| Design       : projectmain
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    40 |
+|    Minimum number of control sets                        |    40 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   167 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    40 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |    27 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              63 |           24 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              50 |           14 |
+| Yes          | No                    | No                     |              72 |           37 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              40 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-------------------------------------+-----------------------------+------------------+----------------+--------------+
+|        Clock Signal        |            Enable Signal            |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+-------------------------------------+-----------------------------+------------------+----------------+--------------+
+|  a/res1_reg_i_2_n_0        |                                     |                             |                1 |              1 |         1.00 |
+|  cont0/jump_reg_i_2_n_0    |                                     |                             |                1 |              1 |         1.00 |
+|  cont0/wden_reg_i_2_n_0    |                                     |                             |                1 |              2 |         2.00 |
+|  cont0/rra0_reg[2]_i_1_n_0 |                                     |                             |                1 |              3 |         3.00 |
+|  cont0/userchecker         |                                     |                             |                1 |              3 |         3.00 |
+|  cont0/rra1_reg[2]_i_2_n_0 |                                     |                             |                1 |              3 |         3.00 |
+|  cont0/rom_reg[2]_i_1_n_0  |                                     |                             |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG             | cont0/inst_reg[3]                   | cont0/ien_reg_19            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_2                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/E[0]                          |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_4                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_5                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_0                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_1                  | reset_IBUF                  |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_3                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_7                  | reset_IBUF                  |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg[0]                    |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_8[0]                  |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_6[0]                  |                             |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_7[0]                  |                             |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_1[0]                  |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_3[0]                  |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_4[0]                  |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_10[0]                 |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_2[0]                  |                             |                2 |              4 |         2.00 |
+|  a/res0_reg[3]_i_2_n_0     |                                     |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_0[0]                  |                             |                2 |              4 |         2.00 |
+|  cont0/rda_reg[3]_i_1_n_0  |                                     |                             |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_9[0]                  |                             |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG             | lb/E[0]                             |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/inst_reg[0][0]                |                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_11                    | datamem0/mem[15][3]_i_1_n_0 |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/wra_reg[1]_6                  | reset_IBUF                  |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG             | cont0/ien_reg_5[0]                  |                             |                2 |              4 |         2.00 |
+|  cont0/wra_reg[2]_i_2_n_0  |                                     |                             |                2 |              7 |         3.50 |
+|  cont0/wden_reg_i_1_n_0    |                                     |                             |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG             | lb/FSM_sequential_state_reg[1]_0[0] |                             |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG             |                                     |                             |                8 |             24 |         3.00 |
+|  clk_IBUF_BUFG             |                                     | rb/getInput                 |                7 |             25 |         3.57 |
+|  clk_IBUF_BUFG             |                                     | lb/getInput                 |                7 |             25 |         3.57 |
++----------------------------+-------------------------------------+-----------------------------+------------------+----------------+--------------+
+
+

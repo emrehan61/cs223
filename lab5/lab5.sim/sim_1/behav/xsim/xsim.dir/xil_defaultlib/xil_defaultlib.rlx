@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/emrho/Desktop/CS223/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab5/lab5.srcs/sim_1/new/tbtlights.sv,1638138404,systemVerilog,,,,tbtlights,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab5/lab5.srcs/sources_1/new/clock.sv,1638138234,systemVerilog,,C:/Users/emrho/Desktop/CS223/lab5/lab5.srcs/sources_1/new/tlights.sv,,clock,,,,,,,,
+C:/Users/emrho/Desktop/CS223/lab5/lab5.srcs/sources_1/new/tlights.sv,1638512576,systemVerilog,,C:/Users/emrho/Desktop/CS223/lab5/lab5.srcs/sim_1/new/tbtlights.sv,,tlights,,,,,,,,

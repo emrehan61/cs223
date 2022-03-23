@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 25 21:06:40 2021
+# Process ID: 17772
+# Current directory: C:/Users/emrho/Desktop/CS223/proje4/proje4.runs/synth_1
+# Command line: vivado.exe -log fourdflipflop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fourdflipflop.tcl
+# Log file: C:/Users/emrho/Desktop/CS223/proje4/proje4.runs/synth_1/fourdflipflop.vds
+# Journal file: C:/Users/emrho/Desktop/CS223/proje4/proje4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fourdflipflop.tcl -notrace
